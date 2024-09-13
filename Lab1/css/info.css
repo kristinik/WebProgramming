@@ -25,8 +25,9 @@
   color: #646D70;
 }
 
-.info-container div button{
+.button-link{
   font-weight: 500;
+  display: inline-block;
   font-size: 17px;
   line-height: 20px;
   color: #606B74;
@@ -35,4 +36,5 @@
   padding: 14px 20px;
   border: #606B74 solid 2px;
   border-radius: 8px;
+  text-decoration: none;
 }
