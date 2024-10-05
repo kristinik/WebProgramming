@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сhainsaw rating</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="search-box">
+        <label for="search-input" class="search-title">Enter chainsaw</label>
+        <input type="text" class="search-input" id="search-input">
+        <button type="button" class="search-btn" id="search-btn">Search</button>
+        <button type="button" class="cancel-search-btn" id="cancel-search-btn">Cancel</button>
+    </div>
+    <div class="items-box">
+        <div class="utils">
+            <h2 class="util-title">Manage chainsaw</h2>
+            <button type="button" class="sort-btn" id="sort-btn">Sort by most revolutions</button>
+            <p class="counter-title">Count power</p>
+            <button type="button" class="count-btn" id="count-btn">COUNT</button>
+            <div class="count-box">
+                <p class="count-result">Total power:</p>
+                <p class="result">0</p>
+            </div>
+            <button class="add-card">Add chainsaw</button>
+        </div>
+        <div class="chainsaws-wrapper">
+            <ul id="chainsaws-list" class="chainsaws-list">
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="modal js-edit">
+    <div class="edit-container">
+        <h2 class="form-title">Editing form</h2>
+        <form action="" class="edit-form js-edit-form">
+            <label for="chainsaw-name-input">Сhainsaw name</label>
+            <input type="text" class="chainsaw-name-input" required>
+            <label for="duration-input">Power</label>
+            <input type="number" min="1" class="duration-input" required>
+            <label for="review-input">Revolutions</label>
+            <input type="number" min="1" class="review-input" required>
+            <button type="submit" class="edit-submit">Edit chainsaw</button>
+        </form>
+    </div>
+</div>
+
+<div class="modal js-add">
+    <div class="edit-container">
+        <h2 class="form-title">New card</h2>
+        <form action="" class="edit-form js-add-form">
+            <label for="chainsaw-name-input">Сhainsaw name</label>
+            <input type="text" class="chainsaw-name-input" required>
+            <label for="duration-input">Power</label>
+            <input type="number" min="1" class="duration-input" required>
+            <label for="review-input">Revolutions</label>
+            <input type="number" min="1" class="review-input" required>
+            <button type="submit" class="edit-submit">Add chainsaw</button>
+        </form>
+    </div>
+</div>
+
+
+<script type="module" src="./js/index.js"></script>
+</body>
+</html>
