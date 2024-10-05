@@ -30,6 +30,7 @@
   display: flex;
   margin-left: 108px;
 }
+
 .data>*{
   display: flex;
   flex-direction: column;
