@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chainsaw Management</title>
+  <link rel="stylesheet" href="style.css"> <!-- Add styles here if needed -->
+</head>
+<body>
+<div class="container">
+  <h1>Chainsaw Management</h1>
+
+  <div class="form-group">
+    <label for="chainsaw-title">Chainsaw Title:</label>
+    <input type="text" id="chainsaw-title" required>
+  </div>
+
+  <div class="form-group">
+    <label for="chainsaw-power">Power (W):</label>
+    <input type="number" id="chainsaw-power" min="0" required>
+  </div>
+
+  <div class="form-group">
+    <label for="chainsaw-revolutions">Revolutions:</label>
+    <input type="number" id="chainsaw-revolutions" min="0" required>
+  </div>
+
+  <button id="add-chainsaw">Add Chainsaw</button>
+  <button id="count-reviews">Count Revolutions</button>
+  <button id="sort-power">Sort by Power</button>
+
+  <div>
+    <label for="search">Search Chainsaw:</label>
+    <input type="text" id="search">
+  </div>
+
+  <div id="main"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

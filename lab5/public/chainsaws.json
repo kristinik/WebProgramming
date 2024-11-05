@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "type": "Chainsaw A",
+    "power": 1200,
+    "speed": 5000,
+    "revolutions": "50"
+  },
+  {
+    "id": 2,
+    "type": "Chainsaw B",
+    "power": 1500,
+    "speed": 6000,
+    "revolutions": "45"
+  }
+]
