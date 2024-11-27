@@ -1,0 +1,98 @@
+/* Основні стилі для тіла сторінки */
+body {
+    overflow-x: hidden;
+}
+
+/* Контейнер кошика */
+.cart-container {
+    padding: 20px;
+    overflow-x: hidden;
+    max-width: 650px; /* Трошки більше для більшого простору */
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Заголовок кошика */
+.cart-header {
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 15px; /* Трошки більше простору під заголовком */
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333; /* Залишено чорний для кращої видимості */
+}
+
+/* Загальна сума */
+.cart-total {
+    text-align: right;
+    margin-right: 15px;
+    font-size: 1.3rem; /* Трошки більший шрифт */
+    font-weight: bold;
+    color: #333;
+}
+
+/* Картка товару */
+.cart-item {
+    border: 1px solid #ddd; /* Легший відтінок для картки */
+    border-radius: 8px;
+    padding: 18px; /* Трошки більше відступів */
+    margin-bottom: 18px; /* Трошки більше відступу між картками */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* М'яка тінь для глибини */
+    background-color: #fafafa; /* Легкий фон для карток */
+}
+
+/* Текст в картці */
+.cart-item p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555; /* Трошки м'якший колір для тексту */
+}
+
+/* Індикатор кольору товару */
+.color-indicator-container {
+    display: flex;
+    align-items: center;
+}
+
+.color-indicator {
+    width: 22px; /* Трошки більший індикатор */
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 12px; /* Трошки більше місця між індикатором та текстом */
+    border: 1px solid #333;
+}
+
+/* Контейнер для зміни кількості */
+.quantity-container {
+    display: flex;
+    align-items: center;
+    margin-top: 12px; /* Трошки більше місця між елементами */
+}
+
+/* Кнопки для зміни кількості */
+.quantity-container button {
+    margin: 0 8px; /* Трошки менше відступів між кнопками */
+    padding: 6px 12px; /* Більше відступу для кнопок */
+    cursor: pointer;
+    background-color:  lavenderblush; /* Стандартний синій колір */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+
+/* Стиль кнопки "Видалити" */
+button {
+    background-color: lavenderblush; /* Червоний колір для видалення */
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s ease;
+    margin: 5px; /* Відступи для кнопки */
+}
+
