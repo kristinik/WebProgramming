@@ -1,0 +1,16 @@
+.loader {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top-color: #1890ff; /* Колір верхнього обідка */
+    animation: spin 10s ease-in-out infinite;
+    text-align: center;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
